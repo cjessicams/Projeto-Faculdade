@@ -1,0 +1,70 @@
+
+
+@media(max-width:767px) {
+    .sessao {
+        width: 95%;
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .iframe {
+        width: 100%;
+        display: flex;
+    }
+
+    .laraimg {
+        width: 100%;
+        display: flex;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    .logoimg {
+        max-width: 100%;
+        align-items: center;
+        display: flex;
+    }
+
+    .sub {
+        width: 50%; /* Ajuste conforme necessário */
+    }
+
+    .animation img {
+        width: 70%; /* Ajuste conforme necessário */
+    }
+
+    .jogo img {
+        width: 100%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .inf-filme h1 {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .inf-filme p {
+        width: 100%;
+        display: flex;
+    }
+
+}
+
+@media(max-width: 480px) {
+    .sub {
+        width: 80%; /* Ajuste conforme necessário */
+    }
+
+    .animation img {
+        width: 30%; /* Ajuste conforme necessário */
+    }
+}

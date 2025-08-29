@@ -1,0 +1,331 @@
+
+* {
+    box-sizing: border-box;
+}
+  
+  /* Estilo body */
+  body {
+    font-family: Arial;
+    margin: 0;  
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* Header/logo Title */
+  .header {
+    padding: 2vw;
+    text-align: center;
+    background: #4a9499;
+  }
+  
+  /* Estilo navbar */
+  .navbar {
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    text-align: left;
+    padding: 1px;
+    flex-direction: row;
+  }
+  
+  /* Estilo links navbar */
+  .navbar a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font: 1.0em 'Spartan', "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  section {
+    padding: 50px;
+    margin: auto;
+    width: 43%;
+    height: auto;
+    align-items: center;
+    font: 1.1em "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+    text-align: center;
+    
+  }
+
+  section p {
+    padding-left: 10px;
+    
+  }
+
+  .laraimg {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: inline-flex;
+    display: block;
+    
+  }
+
+  section h2 {
+    font: 20px "Spartan", "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+    text-align: left;
+  }
+
+  
+
+ /*Modifica todos os h1*/
+  h1 {
+    text-align: center;
+    font: 2.0em "Spartan", "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+    color: black;
+  }
+
+  h3 {
+    text-align: center;
+    font: 1.1em "Spartan", "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+    color: black;
+  }
+
+  .legend {
+    font: 0.9em "Spartan", "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+    text-align: right;
+    padding: 2px;
+    margin-right: 30px;
+  }
+
+
+  /*recuo da página inicial */
+  .recuo {
+    text-indent: 5%;
+    text-align: justify; 
+  }
+
+  footer {
+    background-color: rgb(37, 36, 36);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(211, 222, 222);
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilo da div*/
+.filme {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #eae5e5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 5px;
+  border: 4px solid #ffffff;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.filme:hover {
+  border-color: #4a9499;
+}
+/*Fim dos estilo da div*/
+
+/* Estilos para a capa do filme */
+.capa {
+  max-width: 300px;
+  height: 250px;
+  margin: 20px;
+}
+
+/* Estilos para as informações do filme */
+.inf-filme {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.inf-filme h1 {
+  font-size: 22px;
+  margin-top: 0;
+  color: black;
+  font: "Spartan", "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+}
+
+/* Estilização para as informações adicionais (duração, gênero, sinopse) */
+.inf-filme p {
+  font-size: 18px;
+  margin: 5px 0;
+  font: "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+}
+
+
+.item {
+  margin: 10px; /* Espaçamento entre os itens */
+  text-align: center; /* Centraliza o texto */
+}
+
+.item img {
+  max-width: 100%; /* Impede que as imagens fiquem maiores do que o contêiner */
+  height: 10cm; /* Mantém a proporção original das imagens */
+  width: 7cm;
+  transition: opacity 0.3s;
+}
+
+.item:hover img {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.jogo {
+  margin: 10px; /* Espaçamento entre os itens */
+  text-align: center; /* Centraliza o texto */
+}
+
+.jogo img {
+  height: auto; 
+  width: auto;
+  transition: opacity 0.3s;
+
+}
+
+.jogo:hover img {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.jogo p {
+  color: #ffffff;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  font-size: 0.9rem;
+  position: relative;
+  
+}
+  
+@font-face {
+font-family: "Spartan";
+src: url('LeagueSpartanVariable.woff2') format('woff2-variations');
+font-weight: 200 900;
+}
+
+@font-face {
+  font-family: "Bungee";
+  src: url('Bungee-Regular.ttf') format('ttf');
+  font-weight: 200 900;
+}
+
+/* styles.css */
+button {
+  padding: 10px 20px;
+  background-color: #4a9499;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5em;
+}
+
+button:hover {
+  background-color: #4fb2b6;
+  
+}
+
+
+.sub {
+  font-size: 24px;
+  white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+  animation: moverParaDireita 2s linear infinite; /* Aplica a animação 'moverParaDireita' */
+}
+
+@keyframes moverParaDireita {
+  0% {
+    transform: translateX(0); /* A posição inicial */
+  }
+  100% {
+    transform: translateX(100px); /* A posição final (100px para a direita) */
+  }
+}
+
+.sessao {
+    box-shadow: 0px 0px 10px #646464;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+      padding: 1px;
+      font-size: 18px;
+  }
+
+  .navbar {
+      flex-direction: column; /* Alinhe verticalmente em telas menores */
+      
+  }
+
+  .navbar a {
+      padding: 10px; /* Reduza o preenchimento para economizar espaço */
+  }
+
+ .section {
+  padding: 30px;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  font: 1.1em "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+  text-align: center;
+  display: flex;
+  
+
+ }
+
+ .laraimg {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+ }
+
+ .jogo {
+  margin: 5px;
+ }
+
+ .jogo img {
+  height: auto;
+  width: 100%;
+ }
+
+ 
+
+
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
+
+
+ 
+  
+
